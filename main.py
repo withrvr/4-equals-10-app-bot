@@ -30,7 +30,7 @@ for n in list_numbers:
 		try:
 			sol = eval(formula)
 		except:
-			pass
+			sol = -1
 		finally:
 			if sol == result:
 				solution_equals.append(formula)
